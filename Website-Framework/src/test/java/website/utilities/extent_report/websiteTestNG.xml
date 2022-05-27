@@ -6,8 +6,8 @@
 
     <test name="Musala-Report">
         <classes>
-            <class name="website.utilities.extent_report.ExtentReport"/>
-            <class name="website.musala.tests.contactUs.ContactUsRunner"/>
+            <class name="com.musala.musala_website.utilities.extent_report.ExtentReport"/>
+            <class name="com.musala.musala_website.musala.tests.task1.ContactUsRunner"/>
         </classes>
     </test>
 </suite>
