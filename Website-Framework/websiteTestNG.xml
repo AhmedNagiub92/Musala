@@ -4,10 +4,12 @@
         <listener class-name="website.utilities.listeners.TestNGListener"/>
     </listeners>
 
-    <test name="Musala-Report">
+    <test name="CareerTab-Report">
         <classes>
             <class name="website.utilities.extent_report.ExtentReport"/>
-            <class name="website.musala.tests.contactUs.ContactUsRunner"/>
+            <class name="website.musala.tests.careerTab.CareerTabRunner"/>
+            <!--    <class name="website.musala.tests.companyTab.CompanyTabRunner"/>  -->
+
         </classes>
     </test>
 </suite>
